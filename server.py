@@ -5,7 +5,7 @@ Type "copyright", "credits" or "license()" for more information.
 
 import socket
 
-HOST = 'bhaju'             # Symbolic name meaning the local host
+HOST = ''             # Symbolic name meaning the local host
 PORT = 50007              # Arbitrary non-privileged port
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
